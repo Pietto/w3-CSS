@@ -1,0 +1,66 @@
+body{
+  background-image:url("myphotos/wallpaper 8 project wiebenik.jpg");					/*achtergrond image*/
+  background-size:cover;																/*achtergrond blijft even groot met uitzoomen*/
+  background-attachment: fixed;
+}
+#myphoto3{																				/*foto van mij*/
+	float:right;																		/*foto staat aan de rechterkant van de pagina*/
+	margin :20px;																		/*kleine 'wit'ruimte (20 pixels) om de afbeelding*/
+	border:2px solid;																	/*dikte border*/
+	border-color:black;																	/*kleur border*/
+}
+h1{																						/*hoofd tekst*/
+	font-family:arial black;															/*font van de tekst*/
+	color:white;																		/*kleur van de tekst*/
+	font-size:60px;																		/*grootte van de tekst*/
+	background-color: black;															/*kleur balkje achter de tekst*/
+	text-align:center;																	/*tekst staat in de midden van de pagina (horizotaal)*/
+}
+h2{																						/*naam+klas*/
+	font-family:Arial Rounded MT Bold;													/*font van de tekst*/
+	color:#ffffff;																		/*kleur van de tekst*/
+	font-size:20px;																		/*grootte van de tekst*/
+	text-align:right;																	/*tekst staat in de midden van de pagina (horizotaal)*/
+}
+h3{																						/*linkjes*/
+	font-family:Century;																/*font van de tekst*/
+	font-size:40px;																		/*grootte van de tekst*/
+	color:#40E0D0;																		/*kleur van de tekst*/
+	text-align:center;																	/*tekst staat in de midden van de pagina (horizotaal)*/
+}
+h4{																						/*(tussen)kopjes*/
+	font-family:arial black;															/*font van de tekst*/
+	font-size:45px;																		/*grootte van de tekst*/
+	color:#05E9FF;																		/*kleur van de tekst*/
+	text-align:center;																	/*tekst staat in de midden van de pagina (horizotaal)*/
+}
+p{
+	font-family:Century;
+	font-size:40px;																		/*grootte van de tekst*/
+	color:#40E0D0;																		/*kleur van de tekst*/
+	text-align:left;																	/*tekst staat in de midden van de pagina (horizotaal)*/
+}
+a:link, a:visited{
+	color:#008B8B;																		/*kleur van de linkjes (voor en nadat erop is geklikt*/
+}
+a:hover{
+	color:#37FDFC;																		/*kleur als je over de linkjes hoovert*/
+}
+a:active{
+	color:#008B8B;
+}
+::-webkit-scrollbar {																	/*scrollbar*/
+  width: 11px;																			/*breedte van de balk*/
+}
+
+::-webkit-scrollbar-track {																/*scrollbar*/
+  background-color:#001717; 															/*kleur voor de achtergrond*/
+}
+
+::-webkit-scrollbar-thumb {																/*scrollbar*/
+  background-color:#20B2AA;																/*kleur voor de balk*/
+  border-radius: 4px; 																	/*cutoff bij de hoekjes van het balkje*/
+}
+::-webkit-scrollbar-thumb:hover {														/*scrollbar*/
+  background-color:#00FFFF; 															/*kleur voor de wanneer je erovereen hoovert*/
+}
